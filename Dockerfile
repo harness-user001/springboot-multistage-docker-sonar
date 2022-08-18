@@ -3,6 +3,7 @@ RUN mkdir -p /build
 WORKDIR /build
 COPY pom.xml /build
 COPY src /build/src
+RUN apt install git -y && git init
 RUN mvn clean package 
 RUN mvn sonar:sonar
 
