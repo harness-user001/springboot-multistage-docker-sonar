@@ -9,7 +9,7 @@ RUN mvn sonar:sonar
 
 
 FROM openjdk:11-slim as runtime
-EXPOSE 8080
+EXPOSE 8090
 #Set app home folder
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
