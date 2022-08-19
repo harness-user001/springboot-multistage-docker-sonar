@@ -24,7 +24,7 @@
         <java.version>11</java.version>
 		<!-- test result measurements -->
 		<project.test.result.directory>${project.build.directory}/test-results</project.test.result.directory>
-		<sonar.host.url>http://18.116.165.224:9000</sonar.host.url>
+		<sonar.host.url>http://3.92.96.80:9000</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>ram@3037</sonar.password>
 		<sonar.projectBaseDir>/home/ubuntu/sonar</sonar.projectBaseDir>
